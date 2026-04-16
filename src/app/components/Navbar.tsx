@@ -42,7 +42,7 @@ export function Navbar() {
             animate={{ opacity: 1, x: 0 }}
           >
             <img
-              src="/images/logo.png"
+              src={`${import.meta.env.BASE_URL}images/logo.png`}
               alt="InterLigados WebLink"
               className="h-12 w-auto object-contain"
             />
@@ -64,7 +64,7 @@ export function Navbar() {
               </motion.a>
             ))}
             <motion.a
-              href="/docs/lgpd.pdf"
+              href={`${import.meta.env.BASE_URL}docs/lgpd.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: -20 }}
@@ -119,7 +119,7 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="/docs/lgpd.pdf"
+                href={`${import.meta.env.BASE_URL}docs/lgpd.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

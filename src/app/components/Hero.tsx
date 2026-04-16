@@ -63,7 +63,7 @@ export function Hero() {
             className="mb-6 flex items-center justify-center"
           >
             <img
-              src="/images/logo.png"
+              src={`${import.meta.env.BASE_URL}images/logo.png`}
               alt="InterLigados WebLink"
               className="h-40 w-auto object-contain drop-shadow-2xl"
             />

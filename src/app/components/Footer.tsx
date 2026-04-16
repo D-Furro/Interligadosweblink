@@ -55,7 +55,7 @@ export function Footer() {
             <div className="lg:col-span-2">
               <div className="mb-6">
                 <img
-                  src="/images/logo.png"
+                  src={`${import.meta.env.BASE_URL}images/logo.png`}
                   alt="InterLigados WebLink"
                   className="h-16 w-auto object-contain"
                 />
@@ -153,7 +153,7 @@ export function Footer() {
               </p>
               <div className="flex gap-6 flex-wrap justify-center">
                 <a
-                  href="/docs/lgpd.pdf"
+                  href={`${import.meta.env.BASE_URL}docs/lgpd.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#f7f0eb]/70 hover:text-[#024af6] text-sm transition-colors"
