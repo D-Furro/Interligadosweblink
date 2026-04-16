@@ -42,7 +42,7 @@ export function Streamings() {
           className="flex justify-center"
         >
           <img
-            src="/images/streamings/apps.png"
+            src={`${import.meta.env.BASE_URL}images/streamings/apps.png`}
             alt="Plataformas compatíveis: Max, Deezer, Letterboxd, PlayKids+, Kaspla, NoPing"
             className="max-w-full w-full object-contain"
             style={{ maxHeight: '160px' }}
